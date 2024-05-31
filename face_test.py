@@ -1,13 +1,12 @@
 import cv2
 
 # Test for a specific image if the model can correctly detect the face
-
 face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 )
 
 # Load the image for detecting the face
-image = cv2.imread("rawdata/Eliza2.jpg")
+image = cv2.imread('C:/Users/Rix/Desktop/AI NLP/FaceRecognition/rawdata/User.5.2.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Get the ROI
