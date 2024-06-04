@@ -23,7 +23,7 @@ def upload_and_recognize_image():
 
     except Exception as e:
         messagebox.showerror("Error", f"An error occurred: {e}")
-        
+
 def display_detected_face(image, face_locations):
     image_window = tk.Toplevel()
     image_window.title("Detected Face")

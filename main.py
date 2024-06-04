@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from threading import Thread
 from image_upload import upload_and_recognize_image
-from styles import apply_styles
+from style import apply_styles 
 from image_data_gather import collect_images, get_user_id
 from face_training import train_model
 from face_recognizer import recognize_faces
