@@ -6,9 +6,9 @@ import pickle
 from tkinter import messagebox
 
 def train_model():
-    dataset_path = os.path.join(r"C:\Users\Rix\Desktop\AI NLP\FaceRecognition", 'dataset')
-    trainer_path = os.path.join(r"C:\Users\Rix\Desktop\AI NLP\FaceRecognition", 'trainer', 'trainer.yml')
-    labels_path = os.path.join(r"C:\Users\Rix\Desktop\AI NLP\FaceRecognition", 'trainer', 'labels.pickle')
+    dataset_path = os.path.join(r"FaceRecognition", 'dataset')
+    trainer_path = os.path.join(r"FaceRecognition", 'trainer', 'trainer.yml')
+    labels_path = os.path.join(r"FaceRecognition", 'trainer', 'labels.pickle')
 
     recognizer = cv2.face.LBPHFaceRecognizer_create()
     if os.path.exists(trainer_path) and os.path.exists(labels_path):

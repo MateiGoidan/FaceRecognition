@@ -5,9 +5,9 @@ import pickle
 def recognize_faces():
     print("Starting face recognition...")
     recognizer = cv2.face.LBPHFaceRecognizer_create()
-    recognizer.read(r"C:\Users\Rix\Desktop\AI NLP\FaceRecognition\trainer\trainer.yml")
+    recognizer.read(r"FaceRecognition\trainer\trainer.yml")
 
-    with open(r"C:\Users\Rix\Desktop\AI NLP\FaceRecognition\trainer\labels.pickle", 'rb') as f:
+    with open(r"FaceRecognition\trainer\labels.pickle", 'rb') as f:
         labels_dict = pickle.load(f)
         labels_dict = {v: k for k, v in labels_dict.items()}  # Invert the dictionary
 

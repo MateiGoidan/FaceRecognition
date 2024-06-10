@@ -7,7 +7,7 @@ global_face_id = None
 
 def get_user_id():
     global global_face_id
-    global_face_id = simpledialog.askstring("Input", "Enter user id:")
+    global_face_id = simpledialog.askstring("Input", "Who is this?")
     return global_face_id
 
 def collect_images():
@@ -27,7 +27,7 @@ def collect_images():
         print("Error: Could not load Haar cascade")
         return
 
-    dataset_path = os.path.join(r"C:\Users\Rix\Desktop\AI NLP\FaceRecognition", 'dataset', face_id)
+    dataset_path = os.path.join(r"FaceRecognition", 'dataset', face_id)
     if not os.path.exists(dataset_path):
         os.makedirs(dataset_path)
         print(f"[INFO] Created directory: {dataset_path}")
