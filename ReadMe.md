@@ -20,7 +20,7 @@ Our project aims to develop a comprehensive face recognition system that can col
 
 ## Documentation
 
-##### [Project Report](./Resources/AI_LAB_Project_Report.pdf) 
+- **[Project Report](./Resources/AI_LAB_Project_Report.pdf)**
 
 ## Features
 
