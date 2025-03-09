@@ -1,13 +1,15 @@
 # Face Recognizer using Harr Cascade
 
-## Table of content
+<img align="right" src="icon.png" width="25%">
+
+### **Table of content**
 - [Description](#description) 
 - [Documentation](#documentation)
 - [Features](#features)
-    - [Face Detection](#face)
-    - [Data Gathering](#data) 
-    - [Model Training](#model)
-    - [User Interface](#user)
+    - [Face Detection](#face-detection)
+    - [Data Gathering](#data-gathering) 
+    - [Model Training and Face Recognition](#model-training-and-face-recognition)
+    - [User Interface](#user-interface)
 - [Contributors](#contributors) 
 
 ## Description
@@ -22,19 +24,21 @@ Our project aims to develop a comprehensive face recognition system that can col
 
 ## Features
 
-### Face Dection
+### Face Detection
 
 - In order to capture a face we decided to use the *Haar Cascade classifier* for our project since it's one of the most common use classifiers. 
 - Emphasis is placed on **key facial features such as the eyes and nose**, as the darkness of the eye region compared to the more light nose and cheeks region.
 
-![Features on human faces](./Resources/Features.jpg) 
+<p align="center">
+  <img src="./Resources/Features.jpg" alt="Features on human faces">
+</p>
 
 ### Data Gathering
 
 - The images for training were gathered in two ways: by **capturing photos** via a webcam and **uploading existing files**.
 - For captured photos, the system takes **30 frames** from the webcam (set to a resolution of 640×480).
 
-### Model Training and Face Recognizer
+### Model Training and Face Recognition
 
 - For model trainging **LBPH (Local Binary Patterns Histograms Stogra)** Face Recognizer is used.
 - For face recognition, the laptops camera is used to make the *prediction*.
@@ -44,7 +48,9 @@ Our project aims to develop a comprehensive face recognition system that can col
 - Implemented the GUI using the Tkinter library.
 - Employed threading from the Python threading module to manage concurrent tasks within the system.
 
-![User Interface](./Resources/UI.jpg) 
+<p align="center">
+  <img src="./Resources/UI.jpg" alt="Features on human faces">
+</p>
 
 ## Contributors
 
