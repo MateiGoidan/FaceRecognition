@@ -1,6 +1,6 @@
 # Face Recognizer using Harr Cascade
 
-<img align="right" src="icon.png" width="25%">
+<img align="right" src="Resources/icon.png" width="25%">
 
 ### **Table of content**
 - [Description](#description) 
