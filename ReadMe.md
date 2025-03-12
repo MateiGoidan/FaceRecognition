@@ -57,5 +57,5 @@ Our project aims to develop a comprehensive face recognition system that can col
 - [Favia Abazi](https://github.com/faviaabazi) 
 - [Giulia Imbrea](https://github.com/giuliastf)
 - [Goidan Matei](https://github.com/MateiGoidan)
-- [Rico](https://github.com/Rix313379)
+- [Udrea Ionut](https://github.com/Rix313379)
 
